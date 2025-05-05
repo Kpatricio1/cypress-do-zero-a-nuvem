@@ -3,7 +3,7 @@
 Sample project for the "Cypress, from Zero to the Cloud" course of the talking 
 About Testing online school
 
-## pre-requirements
+## Pre-requirements
 
 It is required to have git, Node.js and npm isntalled to clone and run this project.
 > I've used version `v20.13.1` adn `10.8.1` of git, node.js and npm, respectively. I suggest you
