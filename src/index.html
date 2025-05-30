@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Adicionar a política de segurança de conteúdo (CSP) -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://www.google-analytics.com;">
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Central de Atendimento ao Cliente TAT</title>
   </head>
@@ -80,7 +82,7 @@
           <textarea row="6" id="open-text-area" name="open-text-area" required></textarea>
         </div>
         <div class="field">
-          <label for="file-upload"><strong>Adicone um anexo</strong></label>
+          <label for="file-upload"><strong>Adicione um anexo</strong></label>
           <input id="file-upload" type="file">
         </div>
         <button type="submit" class="button">Enviar</button>
